@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding:0 ;
+}
+#content H1{
+    margin: 20px 0;
+}
+#head{
+    width: 800px;
+    margin: 0 auto;
+    border-bottom: gainsboro 2px solid;
+}
+#logo{
+    border: 1px solid black;
+    border-radius:100%;
+    width: 60px;
+    height:60px;
+}
+#logo:hover{
+    transform:rotate(360deg);
+    transition:transform 2s;
+}
+#headtxt{
+    display: inline-block;
+    height:60px;
+    box-shadow:5px 5px 2px  black;
+    padding:2px;
+    vertical-align: top;
+}
+#headtxt h1{
+    font-size: 25px;
+    display: inline-block;
+}
+#headtxt h2{
+    font-size: 15px;
+    font-style: italic;
+    font-widows: normal;
+}
+#nav{float: right;
+    margin: 40px 0;
+}
+#nav li{
+    display: inline;
+}
+#nav a{
+    text-decoration: none;
+    padding:0 30px;
+}
+#nav ul li a:last-child{
+    padding-right: 0;
+}
+#content{
+    width: 80%;
+    float: left;
+border-right: solid 1px gainsboro;
+}
+#content address{
+    display: inline;
+}
+#content article{
+    margin: 0 20px;
+}
+.comment{
+    background-color: lightgrey;
+    height: 150px;
+    margin: 20px 0;
+}
+.conmentimg{
+    height: 100%;
+    float: left;
+    border-radius:50%;
+}
+#right{
+    margin: 40px;
+}
+#right ul li{
+    list-style: none;
+    margin:30px 0;
+}
+#right ul li a{
+   text-decoration:none;
+}
+.footer{
+    clear: both;
+    color: white;
+    margin:20px 0;
+}
+.footer .contact{
+    background-color: #0f0f0f;
+    border-radius:5%;
+    overflow: hidden;
+}
+.footer .contact .box {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 20px;
+    line-height: 50px;
+
+}
+.footer .contact .box a{
+    color: white;
+
+}
+.footer .contact .box:last-child {
+    border-left: 1px solid white;
+}
